@@ -58,6 +58,7 @@ h2{
     font-weight: 700;
     line-height: 2rem;
     padding-bottom: 1.5rem;
+    color: hsl(212, 21%, 14%);
 }
 h3{
     color: hsl(228, 12%, 48%);
@@ -104,6 +105,10 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+button:hover{
+    border: solid 1rem #173F35;
+    background-color: #173F35;
 }
 @media(max-width:800px){
     body{
