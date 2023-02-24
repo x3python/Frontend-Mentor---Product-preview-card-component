@@ -3,16 +3,19 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-Desktop variant: ![desktop](https://user-images.githubusercontent.com/83002862/221168682-a29de293-ee18-49fb-958f-611c6230d852.gif)
-Mobile variant: ![Mobie](https://user-images.githubusercontent.com/83002862/221168759-f6ba82c4-39d5-41e2-aafe-1e1730f7a428.gif)
-mobile variant hover: ![desktop_hover](https://user-images.githubusercontent.com/83002862/221168847-48ae3a9d-5265-47ef-9c3b-4c5d3b3a2f93.gif)
+Desktop variant:
+![desktop](https://user-images.githubusercontent.com/83002862/221168682-a29de293-ee18-49fb-958f-611c6230d852.gif)
+Mobile variant:
+![Mobie](https://user-images.githubusercontent.com/83002862/221168759-f6ba82c4-39d5-41e2-aafe-1e1730f7a428.gif)
+mobile variant hover:
+![desktop_hover](https://user-images.githubusercontent.com/83002862/221168847-48ae3a9d-5265-47ef-9c3b-4c5d3b3a2f93.gif)
 
 
 
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-3_ctr1LFCy
+- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-product-preview-card-component-8wlL2dW5Gf
 - Live Site URL: https://x3python.github.io/Frontend-Mentor---Product-preview-card-component/
 
 ### Built with
