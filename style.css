@@ -17,18 +17,95 @@ body{
     display: grid;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
 }
 main.card{
     display: grid;
     grid-template-areas: 'img-area text-area';
-    width: 800px;
+    width: min-content;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 header.img-area{
     grid-area: 'img-area';
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 section.text-area{
     grid-area: 'text-area';
+    width: 333.33px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: #fff;
+    height: 500px;
+    padding: 3rem;
+}
+h1{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3rem;
+    padding-bottom: 1.5rem;
+}
+h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+    padding-bottom: 1.5rem;
+}
+h3{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+section.sub-text{
+    display: grid;
+    grid-template-areas: 'price drop';
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 2rem;
 }
 img.base-img{
     height: 500px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+h4.price{
+    grid-area: 'price';
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+h5.drop-price{
+    grid-area: 'drop-price';
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 1rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through;
+}
+img.icon-cart{
+    padding-right: 1rem;
+}
+button{
+    border: solid 1rem hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+    width: 100%;
+    border-radius: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:800px){
+    
 }
