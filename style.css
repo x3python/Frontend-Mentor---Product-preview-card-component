@@ -30,6 +30,10 @@ header.img-area{
     grid-area: 'img-area';
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
+    background-image: url(images/image-product-desktop.jpg);
+    height: 500px;
+    width: 333.33px;
+    background-size: cover;
 }
 section.text-area{
     grid-area: 'text-area';
@@ -70,11 +74,6 @@ section.sub-text{
     align-items: center;
     padding-bottom: 2rem;
 }
-img.base-img{
-    height: 500px;
-    border-top-left-radius: 0.5rem;
-    border-bottom-left-radius: 0.5rem;
-}
 h4.price{
     grid-area: 'price';
     font-family: 'Fraunces', serif;
@@ -107,5 +106,43 @@ button{
     justify-content: center;
 }
 @media(max-width:800px){
-    
+    body{
+        margin: 100px;
+    }
+    main.card{
+        display: grid;
+        grid-template-areas: 'img-area' 'text-area';
+        width: min-content;
+    }
+    header.img-area{
+        width: 333.33px;
+        height: 230px;
+        grid-area: 'img-area';
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        background-image: url(images/image-product-mobile.jpg);
+    }
+    section.text-area{
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0;
+        padding: 1.5rem;
+        height: fit-content;
+    }
+    h1{
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    h2{
+        font-size: 1.9rem;
+        padding-bottom: 1rem;
+    }
+    h3{
+        font-size: 13px;
+        padding-bottom: 1rem;
+        padding-right: 0.7rem;
+    }
+    section.sub-text{
+        padding-bottom: 1rem;
+    }
+
 }
