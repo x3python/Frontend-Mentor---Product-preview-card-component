@@ -13,7 +13,7 @@ mobile variant hover: ![desktop_hover](https://user-images.githubusercontent.com
 ### Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-order-summary-card-3_ctr1LFCy
-- Live Site URL: https://x3python.github.io/Frontend-Mentor---Order-summary-card/
+- Live Site URL: https://x3python.github.io/Frontend-Mentor---Product-preview-card-component/
 
 ### Built with
 
